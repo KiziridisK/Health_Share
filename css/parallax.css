@@ -1,0 +1,30 @@
+.parallax {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.parallax_header {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  line-height: 200%;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+  .parallax_header {
+    line-height: 150%;
+  }
+}

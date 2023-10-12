@@ -1,0 +1,13 @@
+.covid_bg {
+  background-image: url("../img/covidImpact/covid19Backdrop.jpg");
+}
+
+.mental_health_bg {
+  min-height: 300px;
+  background-image: url("../img/covidImpact/covid19MentalHealth.jpg");
+}
+
+.physical_health_bg {
+  min-height: 300px;
+  background-image: url("../img/covidImpact/covid19PhysicalHealth.png");
+}

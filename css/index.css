@@ -1,0 +1,79 @@
+.hs_bg {
+  background-image: url("../img/index/goodHealth.jpg");
+}
+
+.covid_bg {
+  background-image: url("../img/index/covid.jpg");
+  min-height: 512px;
+}
+
+.marketisation_bg {
+  background-image: url("../img/index/health2.jpg");
+  min-height: 512px;
+}
+
+.road_accidents_bg {
+  background-image: url("../img/index/cars.jpg");
+  min-height: 512px;
+}
+
+.hiv_bg {
+  background-image: url("../img/index/hiv.jpg");
+  min-height: 512px;
+}
+
+.parallax_carousel_text {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-20%, -80%)
+}
+
+.hs_header_first {
+  color: white;
+  font-weight: bold;
+  font-size: 250%;
+  vertical-align: middle;
+}
+
+.hs_header_second {
+  color: red;
+  font-weight: bold;
+  font-size: 300%;
+  vertical-align: middle;
+}
+
+.carousel-item {
+  height: 32rem;
+  background: #777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.myContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.carousel-inner {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .hs_header_first {
+    font-size: 200%;
+  }
+  .hs_header_second {
+    font-size: 250%;
+  }
+}
